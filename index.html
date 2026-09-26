@@ -1,11 +1,101 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-  <title>Sample Website</title>
-  </head>
-  <body>
-  <h2>Computer Engineering</h2>
-  <h4>Student Name</h4>
-  <img src ="pic.png">
-  </body>
-  </html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کارت ویزیت زهرا صادقی</title>
+    <!-- استفاده از فونت وزیرمتن برای زیبایی -->
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Vazirmatn', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #2c3e50 0%, #000000 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: #ffffff;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+            text-align: center;
+            border-top: 8px solid #800020;
+            transition: all 0.3s ease;
+        }
+        .card:hover { transform: scale(1.02); }
+        .header { padding: 40px 20px 20px; }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            background: #800020;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 35px;
+            font-weight: bold;
+            margin: 0 auto 20px;
+            box-shadow: 0 4px 10px rgba(128,0,32,0.3);
+        }
+        h1 { margin: 0; font-size: 24px; color: #333; }
+        .job-title { color: #800020; font-weight: bold; margin: 10px 0; font-size: 16px; }
+        .subtitle { color: #555; font-size: 13px; margin-bottom: 20px; }
+        
+        .info-section {
+            background: #f9f9f9;
+            padding: 25px;
+            text-align: right;
+        }
+        .info-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        .info-row:last-child { margin-bottom: 0; }
+        .icon { width: 30px; font-size: 18px; }
+        .val { color: #333; direction: ltr; margin-right: 10px; }
+        
+        a { text-decoration: none; color: #800020; font-weight: 600; }
+        .footer { padding: 15px; font-size: 11px; color: #888; background: #fff; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header">
+            <div class="avatar">ZS</div>
+            <h1>زهرا صادقی</h1>
+            <div class="job-title">Cloud Virtualization Specialist</div>
+            <div class="subtitle">متخصص مجازی‌سازی ابری | مهندسی کامپیوتر</div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-row">
+                <span class="icon">📞</span>
+                <span class="val">0933***6340</span>
+            </div>
+            <div class="info-row">
+                <span class="icon">✉️</span>
+                <a href="mailto:zahra83id@gmail.com" class="val">zahra83id@gmail.com</a>
+            </div>
+            <div class="info-row">
+                <span class="icon">✈️</span>
+                <a href="https://t.me/Zahra_Sadeghi712" class="val">@Zahra_Sadeghi712</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            پروژه درس مبانی رایانش ابری
+        </div>
+    </div>
+
+</body>
+</html>
